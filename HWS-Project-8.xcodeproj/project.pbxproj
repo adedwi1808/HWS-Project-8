@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD11CD902B23EA1800A58469 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD11CD8E2B23EA1700A58469 /* level1.txt */; };
+		AD11CD912B23EA1800A58469 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD11CD8F2B23EA1800A58469 /* level2.txt */; };
 		AD6E0A612B234A6F007800EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E0A602B234A6F007800EE /* AppDelegate.swift */; };
 		AD6E0A632B234A6F007800EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E0A622B234A6F007800EE /* SceneDelegate.swift */; };
 		AD6E0A652B234A6F007800EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E0A642B234A6F007800EE /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD11CD8E2B23EA1700A58469 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		AD11CD8F2B23EA1800A58469 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		AD6E0A5D2B234A6F007800EE /* HWS-Project-8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS-Project-8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6E0A602B234A6F007800EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD6E0A622B234A6F007800EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				AD6E0A662B234A6F007800EE /* Main.storyboard */,
 				AD6E0A692B234A70007800EE /* Assets.xcassets */,
 				AD6E0A6B2B234A70007800EE /* LaunchScreen.storyboard */,
+				AD11CD8E2B23EA1700A58469 /* level1.txt */,
+				AD11CD8F2B23EA1800A58469 /* level2.txt */,
 				AD6E0A6E2B234A70007800EE /* Info.plist */,
 			);
 			path = "HWS-Project-8";
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD11CD912B23EA1800A58469 /* level2.txt in Resources */,
 				AD6E0A6D2B234A70007800EE /* LaunchScreen.storyboard in Resources */,
+				AD11CD902B23EA1800A58469 /* level1.txt in Resources */,
 				AD6E0A6A2B234A70007800EE /* Assets.xcassets in Resources */,
 				AD6E0A682B234A6F007800EE /* Main.storyboard in Resources */,
 			);
@@ -218,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
